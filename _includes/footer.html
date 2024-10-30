@@ -1,0 +1,34 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p style="font-size:large;color: black;">OSCAL Compass is a CNCF Sandbox project</p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://www.cncf.io/wp-content/uploads/2022/07/cncf-white-logo.svg">
+          <img alt="CNCF Logo" src="https://www.cncf.io/wp-content/uploads/2022/07/cncf-color-bg.svg" width=400 />
+        </picture>
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+      </div>
+      <div class="footer-col">
+        <p style="font-size: medium;">&copy; 2024 The OSCAL Compass Authors. All rights reserved. The Linux Foundation® (TLF) has registered trademarks and uses trademarks.
+          For a list of TLF trademarks, see <a href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+</footer>
