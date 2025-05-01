@@ -80,7 +80,7 @@ If you would like to see the detailed LICENSE click [here](https://github.com/os
 Consult [maintainers](https://github.com/oscal-compass/community/blob/main/MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
-# Copyright (c) 2024 The OSCAL Compass Authors.
+# Copyright (c) 2025 The OSCAL Compass Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
