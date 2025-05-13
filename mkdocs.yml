@@ -1,0 +1,27 @@
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+site_name: OSCAL Compass
+site_url: https://oscal-compass.dev
+plugins:
+  - search
+  - awesome-pages
+theme:
+  name: material
+  custom_dir: custom_theme/
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: lime
+  favicon: img/oscal-compass-icon-1200x1200.png
+  logo: img/oscal-compass-icon-1200x1200.png
+  font:
+    text: Sen
+    code: Azeret Mono
+  features:
+    - navigation.footer
+  extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/oscal-compass
