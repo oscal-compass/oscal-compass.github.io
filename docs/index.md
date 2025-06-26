@@ -1,4 +1,4 @@
-# <img alt="OSCAL Compass Logo" width="100px" src="https://raw.githubusercontent.com/oscal-compass/community/main/assets/oscal-compass-icon-1200x1200.png" style="vertical-align: middle;" /> **Welcome to the OSCAL Compass project**
+# <img alt="OSCAL Compass Logo" width="100px" src="https://raw.githubusercontent.com/oscal-compass/oscal-compass.github.io/814c1aba3620a053b7d45435c3a11135bc2415c8/docs/img/oscal-compass-icon-1200x1200.png" style="vertical-align: middle;" /> **Welcome to the OSCAL Compass project**
 
 The OSCAL Compass project is set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Assessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL SDK and adoption by policy engines.
 
