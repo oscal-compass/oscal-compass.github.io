@@ -1,4 +1,9 @@
-.PHONY: install serve build
+.PHONY: help install serve build
+
+.DEFAULT_GOAL := help
+
+help: ## Show this help message
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
 
 install: ## Install documentation dependencies
 	pip install -r requirements.txt
