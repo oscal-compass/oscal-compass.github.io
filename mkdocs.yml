@@ -11,9 +11,18 @@ theme:
   name: material
   custom_dir: custom_theme/
   palette:
-    scheme: slate
-    primary: indigo
-    accent: lime
+    - scheme: slate
+      primary: black
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
   favicon: img/oscal-compass-icon-1200x1200.png
   logo: img/oscal-compass-icon-1200x1200.png
   font:
@@ -21,7 +30,10 @@ theme:
     code: Azeret Mono
   features:
     - navigation.footer
-  extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/oscal-compass
+    - navigation.tabs
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oscal-compass
+extra_css:
+  - css/extra.css
